@@ -9,3 +9,9 @@ console.log("thiago figueira")
 
 let email = "thiago@email.com"
 console.log(email)
+
+email = "maria@gemail.com"
+
+console.log(email)
+
+// consigo mudar o valor sem poblemas.
