@@ -7,7 +7,7 @@ funções ou métodos específicos para realizar a conversão.
 
  */
 
-  let value = "9"
+  let value = "9"  
   console.log(typeof value)
   console.log(typeof Number(value))
 

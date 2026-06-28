@@ -6,9 +6,11 @@ let email = "thiago@gmail.com"
 console.log(username, email, "teste")
 
 //concatenar texto.
-let messagem = "Olá, " + username + ". Você conectou com o e-mail " + email
+let messagem = "Olá, " + username + ". Você conectou com o e-mail " + email // Junta textos usando o operador +. Isso se chama concatenação.
 
 console.log(messagem)
 
 //Template literals
-console.log(`Olá, ${username}. Você conectou com o e-mail ${email}`)
+console.log(`Olá, ${username}. Você conectou com o e-mail ${email}`) // esse codigo faz a mesma coisa que o de cima, mais ele é limpo e mais organizado
+
+

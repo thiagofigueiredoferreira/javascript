@@ -1,7 +1,7 @@
 // string
 let username = "thaigo"
 console.log(username)
-console.log(typeof username)
+console.log(typeof username) // o typeof exibe qual o modelo do resultado - este é string
 
 console.log("Uma string com aspas")
 console.log('Uma string com apóstrofo (aspas simples)')

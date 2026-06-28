@@ -11,6 +11,6 @@ console.log(balance < payment)
 balance = 120
 console.log(balance >= payment)
 
-// maior ou igual a 
+// menor ou igual a 
 balance = 500
 console.log(balance <= payment)

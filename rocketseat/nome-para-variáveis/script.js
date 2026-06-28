@@ -11,10 +11,10 @@ console.log(username)
 console.log(userName)
 
 //PODEMOS
-let $email = "rodrigo@gmail.com"
-let _email = "thiago@gmail.com"
-let user_email = "maria@gmail.com"
-let ação = "cadastro" // não é recomendado usar caracteres especiais.
+let $email = "rodrigo@gmail.com" // podemos começar variaveis com carater especiais como ($). 
+let _email = "thiago@gmail.com" // podemos usar tambem o (_). 
+let user_email = "maria@gmail.com" // E podemos colocalo entre o nome da variavel. 
+let ação = "cadastro" // não é recomendado usar caracteres especiais como (ç ~)
 
 console.log($email)
 console.log(_email)
@@ -27,13 +27,13 @@ console.log(ação) // não é recomendado usar caracteres especiais.
 
 //recomendação camelcase  (corcunda do camelo)
 
-// Sempre usar nomes que tenham a ver com o conteudo.
+// Sempre usar nomes que tenham a ver com o conteudo. Para não se perder no meio do codigo
 
 let productName = "Teclado"
 let firstName = "thiago"
 let lastname = "figueira"
 
-//Recomendação snake_case (rastejar)
+//Recomendação snake_case (rastejar) Melhor opção!!
 
 let product_name = "Teclado"
 let first_name = "thiago"
