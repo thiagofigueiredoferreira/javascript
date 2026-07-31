@@ -37,3 +37,24 @@ joinText("Figueiredo", "Thiago", "Ferreira")
 
 
 joinText("thiago")
+
+//exemplo de parametros
+
+function meioTrasport(moto,carro){
+    console.log("A " + moto + "é muito rapida e a" + carro + "é muito lenta.")
+}
+
+meioTrasport("tiger-800 ", " ferrari ")
+
+function comidas(comida1,comida2){
+    console.log("Amo comer " + comida1 + "de sobremessa, mais uma " + comida2 + "é bem melhor!!")
+}
+
+comidas("pudim ", "lasanha ")
+
+function meliAreas(area1, area2, area3, area4){
+    console.log("Aqui no mercado livre tem " + area1 + area2 + area3 + area4 + ", E estamos em beta continuo!!!")
+}
+
+meliAreas("piking, ", "packing, ", "putwhou, ", "shiping" )
+
