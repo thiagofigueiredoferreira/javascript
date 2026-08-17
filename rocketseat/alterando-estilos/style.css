@@ -19,30 +19,31 @@
 }
 
 body {
+
   width: 100vw;
   height: 100vh;
   background-color: #121214;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 
   font-family: "Roboto", sans-serif;
-
+  
   padding: 32px;
 }
 
-h1,
-h2 {
+h1,h2 {
+
   color: #fff;
   margin: 32px 0;
 }
 
 form {
-  min-width: 510px;
-  display: flex;
-  gap: 12px;
+   min-width: 510px;
+   display: flex;
+   gap: 12px;
 }
 
 input {

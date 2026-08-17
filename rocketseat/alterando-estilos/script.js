@@ -12,4 +12,10 @@
 const button = document.querySelector("button")
 
 // Modificar as propriedades css do elemento. 
- button.style.backgroundColor = "red" 
+ button.style.backgroundColor = "red" ; 
+
+
+
+
+ 
+
