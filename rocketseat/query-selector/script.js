@@ -6,7 +6,7 @@ console.log(guest)
 // const guests = document.querySelector(".guest")
 
 
-//Retorna todos os elementos encontrados pela query
+//Retorna todos os elementos encontrados pela query / usando queryselectorALL.
 const guests = document.querySelectorAll(".guest")
 
 console.log(guests)
