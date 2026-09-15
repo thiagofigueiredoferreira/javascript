@@ -13,30 +13,39 @@
  const input = document.querySelector("input")
 
  const bloquear = document.querySelector("#bloquear")
-const desbloquear = document.querySelector("#desbloquear")
-const senha = document.querySelector("#senha")
-const texto = document.querySelector("#texto")
+ const desbloquear = document.querySelector("#desbloquear")
+ const senha = document.querySelector("#senha")
+ const texto = document.querySelector("#texto")
 
 bloquear.addEventListener("click", () => {
+
     input.setAttribute("disabled", "")
 })
 
 desbloquear.addEventListener("click", () => {
+
     input.removeAttribute("disabled")
 })
 
 senha.addEventListener("click", () => {
+
     input.setAttribute("type", "password")
 })
 
 texto.addEventListener("click", () => {
+
     input.setAttribute("type", "text")
-})
+}) 
 
 
 
 
- /*ATRIBUTOS
+
+
+
+
+ /*
+   ATRIBUTOS
    │
    ├── setAttribute()    → adiciona / altera
    │
@@ -46,3 +55,4 @@ texto.addEventListener("click", () => {
    │
    └── hasAttribute()    → verifica se existe
    */
+
