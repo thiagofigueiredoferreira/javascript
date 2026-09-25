@@ -1,4 +1,4 @@
-window.addEventListener("load" , () => {
+window.addEventListener("load" , () => {           // addEventListener ele observa tudo que acontece na janela(window), posso usar ele para escolher na onde quero olhar.
    const pgh2  = document.querySelector("#status-pagina")
    pgh2.textContent = "Bem-vindo à Lista do Apartamento!"
 })
@@ -17,4 +17,5 @@ formulario.addEventListener("submit", (event) => {
 const lista = document.querySelector("#lista-garantidos")
 lista.addEventListener("click", (event) => {
     console.log(event.target.textContent)
+
 })
