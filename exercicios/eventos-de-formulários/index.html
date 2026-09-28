@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; max-width: 400px; margin: 0 auto; }
+    form { display: flex; gap: 8px; margin-bottom: 1.5rem; }
+    input { flex: 1; padding: 8px; }
+    button { padding: 8px 12px; cursor: pointer; }
+    ul { list-style: none; padding: 0; }
+    li { padding: 8px; background: #f4f4f4; border-radius: 4px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center; }
+  </style>
+</head>
+<body>
+
+  <h2>Minha Lista de Compras</h2>
+
+  <form id="form-compras">
+    <input type="text" id="input-item" placeholder="Ex: Arroz, Leite..." required />
+    <button type="submit">Adicionar Item</button>
+  </form>
+
+  <ul id="lista-compras"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
